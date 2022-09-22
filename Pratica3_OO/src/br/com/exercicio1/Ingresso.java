@@ -1,17 +1,17 @@
 package br.com.exercicio1;
 
 public class Ingresso {
-  private double valor;
+  private double valorIngresso;
 
   public Ingresso(double valor) {
-    this.valor = valor;
+    this.valorIngresso = valor;
   }
 
   public double getValor() {
-    return valor;
+    return valorIngresso;
   }
 
   public void setValor(double valor) {
-    this.valor = valor;
+    this.valorIngresso = valor;
   }
 }
