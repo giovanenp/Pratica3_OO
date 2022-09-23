@@ -26,6 +26,7 @@ public class FProdutividade extends Funcionario {
     this.producao = producao;
   }
 
+  @Override
   public double calcularProventos() {
     return getSalario() + (this.valor * this.producao);
   }

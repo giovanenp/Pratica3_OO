@@ -6,6 +6,7 @@ public class FPadrao extends Funcionario{
     super(matricula, nome, salario);    
   }
 
+  @Override
   public double calcularProventos() {    
     return getSalario();
   }

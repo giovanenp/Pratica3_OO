@@ -27,7 +27,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, fProdutividade.calcularProventos(), "Detalhes do ingresso", JOptionPane.INFORMATION_MESSAGE);
         break;
       default:
-      JOptionPane.showMessageDialog(null, "Opção inválida!", "Detalhes do ingresso", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Opção inválida!", "Detalhes do ingresso", JOptionPane.ERROR_MESSAGE);
         break;
     }
   }
