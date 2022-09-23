@@ -7,11 +7,11 @@ public class Ingresso {
     this.valorIngresso = valor;
   }
 
-  public double getValor() {
+  public double getValorIngresso() {
     return valorIngresso;
   }
 
-  public void setValor(double valor) {
+  public void setValorIngresso(double valor) {
     this.valorIngresso = valor;
   }
 }

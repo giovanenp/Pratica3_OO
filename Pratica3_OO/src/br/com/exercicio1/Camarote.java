@@ -25,8 +25,9 @@ public class Camarote extends Ingresso {
   public void setLocalizacao(String localizacao) {
     this.localizacao = localizacao;
   }
-  
-  public String printCamarote() {
-    return "Valor do ingresso: " + (getValor() + this.valorAdicional) + ".\nLocalização: " + this.localizacao + ".\nIngresso Camarote!";
+
+  public String imprimeIngresso() {
+    return "Valor do ingresso: " + (getValorIngresso() + this.valorAdicional) + ".\nLocalização: " + this.localizacao
+        + ".\nIngresso Camarote!";
   }
 }

@@ -6,7 +6,7 @@ public class Normal extends Ingresso {
     super(valor);
   }
 
-  public String printIngressoNormal() {
-    return "Valor do ingresso: " + getValor() + ".\nIngresso Normal!";
+  public String imprimeIngresso() {
+    return "Ingresso Normal \nValor do ingresso: " + getValorIngresso();
   }
 }

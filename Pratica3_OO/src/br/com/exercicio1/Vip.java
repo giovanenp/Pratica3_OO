@@ -16,7 +16,7 @@ public class Vip extends Ingresso {
     this.valorAdicional = valorAdicional;
   }
 
-  public String printIngressoVip() {
-    return "Valor do ingresso: " + (getValor() + this.valorAdicional) + ".\nIngresso Vip!";
+  public String imprimeIngresso() {
+    return "Ingresso Vip \nValor do ingresso: " + (getValorIngresso() + this.valorAdicional);
   }
 }
