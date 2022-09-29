@@ -3,11 +3,13 @@ package br.com.exercicio1;
 public class Camarote extends Ingresso {
   private double valorAdicional;
   private String localizacao;
+  public static int count;
 
   public Camarote(double valor, double valorAdicional, String localizacao) {
     super(valor);
     this.valorAdicional = valorAdicional;
     this.localizacao = localizacao;
+    count++;
   }
 
   public double getValorAdicional() {
@@ -29,5 +31,10 @@ public class Camarote extends Ingresso {
   public String imprimeIngresso() {
     return "Valor do ingresso: " + (getValorIngresso() + this.valorAdicional) + ".\nLocalização: " + this.localizacao
         + ".\nIngresso Camarote!";
+  }
+
+  @Override
+  public int getQtd() {
+    return count;
   }
 }

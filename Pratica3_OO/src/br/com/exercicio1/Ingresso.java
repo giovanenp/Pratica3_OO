@@ -14,4 +14,8 @@ public class Ingresso {
   public void setValorIngresso(double valor) {
     this.valorIngresso = valor;
   }
+
+  public int getQtd(){
+    return 0;    
+  }
 }
