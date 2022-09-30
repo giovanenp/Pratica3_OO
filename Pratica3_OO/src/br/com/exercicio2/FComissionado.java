@@ -28,6 +28,6 @@ public class FComissionado extends Funcionario {
 
   @Override
   public double calcularProventos() {
-    return getSalario() + (((getSalario() * this.percentual) / 100) * this.vendas);
+    return getSalario() + ((this.vendas * this.percentual) / 100);
   }
 }

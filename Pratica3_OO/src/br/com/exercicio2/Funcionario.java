@@ -1,6 +1,6 @@
 package br.com.exercicio2;
 
-public abstract class Funcionario {
+public abstract class Funcionario{
   private int matricula;
   private String nome;
   private double salario;
@@ -35,7 +35,9 @@ public abstract class Funcionario {
     this.salario = salario;
   }
 
-  public double calcularProventos(){
-    return this.salario;
+  public abstract double calcularProventos();
+
+  public String toString() {
+    return "Funcionario [matricula=" + this.matricula + ", nome=" + this.nome + ", salario=" + this.salario + "]";
   }
 }
